@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We make a variable called number and set it to 1.
+//We increment the number variable. The number is now 2.
+//We check if number is greater than or equal to 2. 2 is equal to 2, so 
+//we console.log 'yes'
+
 
 //CODE
 /*
@@ -45,10 +46,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called Dane.
+//If name is true to Mary, we console.log Hi, Mary. Otherwise
+//console.log How do you do?
+//Name does not equal Mary, so we console.log How do you do?
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//isStudent is true. There are 2 variables called age and zip.
+//if isStudent is true and the zip is less than 80000, it will console.log You're a student on the West Coast!
+//If isStudent is false or the age is less than 30, it will log, What are your hobbies?
+//If isStudent is true, it will log, Welcome to Prime!
+//If isStudent is false, it will log, How about the weather?
 
 //CODE
 /*
@@ -138,6 +140,9 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+//colorOne is currently set to red and it should be blue 
+//colorTwo is set to blue and should be red 
+//If the mix is true, both colorOne and colorTwo will be purple, but it is not true
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +156,8 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+//It is showing an 'or' statement when we want to show 'and', so || needs to be chaged to &&
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +173,4 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+//The first console.log should be 'enter' and the else console.log should be 'no entry'
